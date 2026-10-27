@@ -114,7 +114,7 @@ Install-Module -Name Az.Accounts, Az.KeyVault -Scope CurrentUser -Repository PSG
 
 ```powershell
 # 1. Clone the repository
-git clone https://github.com/<soniprerna26>/azure-keyvault-expiry-monitor.git
+git clone https://github.com/soniprerna26/azure-keyvault-expiry-monitor.git
 cd azure-keyvault-expiry-monitor
 
 # 2. Sign in to Azure
@@ -262,11 +262,10 @@ azure-keyvault-expiry-monitor/
 
 ## Author
 
-**Prerna Soni**, Security Managed Services Analyst
-Network, cloud, zero trust and email security operations
+**Prerna Soni** | Security Managed Services Analyst | Network, cloud, zero trust and email security operations
 
 * GitHub: [@soniprerna26](https://github.com/soniprerna26)
-* LinkedIn: [linkedin.com/in/prernaasoni](https://www.linkedin.com/in/linkedin.com/in/prernaasoni)
+* LinkedIn: [linkedin.com/in/prernaasoni](https://www.linkedin.com/in/prernaasoni/)
 
 This project was built and validated in a personal Azure test environment. It is not an employer deliverable and contains no employer or customer data.
 
