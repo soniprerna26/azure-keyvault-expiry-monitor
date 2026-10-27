@@ -1,0 +1,21 @@
+# Credentials and secrets
+*.pfx
+*.pem
+*.key
+*.cer
+*.env
+*.clixml
+credential*.xml
+secrets.json
+appsettings.local.json
+
+# Azure / PowerShell local state
+.azure/
+*.publishsettings
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
