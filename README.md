@@ -54,10 +54,10 @@ Connect-AzAccount
       v
 Get-AzKeyVaultSecret      --> for each secret      --> has Expires?
 Get-AzKeyVaultCertificate --> for each certificate -->     |
-                                                          v
-                          daysLeft = (Expires - Get-Date).Days
+
+                                daysLeft = (Expires - Get-Date).Days
                                                           |
-                                         daysLeft <= ThresholdDays ?
+                                          daysLeft <= ThresholdDays ?
                                            |                    |
                                           yes                  no
                                            |                    |
@@ -262,10 +262,10 @@ azure-keyvault-expiry-monitor/
 
 ## Author
 
-**Prerna Soni** | Security Managed Services Analyst | Network, cloud, zero trust and email security operations
+**Prerna Soni** | Security Managed Services Analyst | Network, Cloud, Zero Trust and Email security operations
 
 * GitHub: [@soniprerna26](https://github.com/soniprerna26)
-* LinkedIn: [linkedin.com/in/prernaasoni](https://www.linkedin.com/in/prernaasoni/)
+* LinkedIn: [linkedin.com/in/prernaasoni/](https://www.linkedin.com/in/prernaasoni/)
 
 This project was built and validated in a personal Azure test environment. It is not an employer deliverable and contains no employer or customer data.
 
